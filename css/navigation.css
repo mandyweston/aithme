@@ -18,6 +18,7 @@ nav li {
 nav li a {
     text-decoration: none;
     color: black;
+    font-size: 1.75em;
 }
  
 nav li a:hover {
@@ -35,7 +36,7 @@ nav li a {
 nav {
     background-color: red;
     clear: both;
-    max-height: 0;
+    height: 35px;
     transition: max-height 1s ease-out;
     text-align: center;
 }
