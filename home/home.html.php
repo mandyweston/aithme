@@ -31,7 +31,7 @@
 
         <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/ss3.jpg" style="width:100%" alt="runner athletes in a race">
+        <img src="images/ss3.jpg" style="width:100%" alt="biker athletes in a race">
         </div>
 
         <!-- Next and previous buttons -->
@@ -89,7 +89,7 @@
               slideIndex++;
               if (slideIndex > slides.length) {slideIndex = 1}
               slides[slideIndex-1].style.display = "block";
-              setTimeout(showSlides, 5000); // Change image every 2 seconds
+              setTimeout(showSlides, 8000); // Change image every 8 seconds
             }
           
         </script>

@@ -15,13 +15,6 @@
     <?php include "../includes/nav.inc.html.php"; ?> <!-- Nav -->
     <main>
         <div id="content1">
-            <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us" data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="original" >PORTLAND WEATHER</a>
-            <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-            </script>
-        </div>
-        
-        <div id="content2">
             <h1>About the Events</h1>
             <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.
                 
@@ -30,7 +23,7 @@
             There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!</p>
         </div>
         
-        <div id="content3">
+        <div id="content2">
             <h2>Events Calendar</h2>
           <br>
           <ul>
@@ -63,7 +56,7 @@
           </ul>
         </div>
         
-        <div id="content4">
+        <div id="content3">
             <h2>Registration Information</h2>
             <br>
             <ul>
@@ -97,6 +90,14 @@
                 <br><br>
             NOTE: Tech shirts guaranteed to pre-registered participants only.
             </p>
+        </div>
+        
+        <div id="content4">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us" data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="original" >PORTLAND WEATHER</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            
         </div>
         
         <div id="content5">
@@ -169,8 +170,11 @@
                 </tr>
             </table>
         </div>
-        
         <div id="content6">
+            <img id="events" src="../images/events.jpg" style="width:100%" alt="Female athlete running">
+        </div>
+        
+        <div id="content7">
             <h2>What to Bring</h2>
             
             <p>

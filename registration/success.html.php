@@ -15,7 +15,7 @@
             <?php include '../includes/nav.inc.html.php'; ?>
             <main>
                 <h1>Thank you!</h1>
-                <p>Our records show you submitted the following:<br>
+                <p id="thanks">Our records show you submitted the following:<br>
                   Name: <?php echo htmlspecialchars($myname, ENT_QUOTES, 'UTF-8'); ?><br>
                   Age: <?php echo htmlspecialchars($age, ENT_QUOTES, 'UTF-8'); ?><br>
                   role: <?php echo htmlspecialchars($role, ENT_QUOTES, 'UTF-8'); ?><br>

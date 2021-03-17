@@ -52,13 +52,29 @@
         </select>
           <br>
         <label for="shirt">T-shirt Size:</label>
-          <input type="text" name="shirt" id="shirt"/>
+          <select size="1" name="shirt" id="shirt">
+            <option>What is Your T-shirt size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
           <br>
          <label for="event">Saturday Event Registering for:</label>
-          <input type="text" name="event" id="event"/>
+          <select size="1" name="event" id="event">
+            <option>What event do you want to attend?</option>
+            <option value="lct">Long Course Triathlon</option>
+            <option value="ot">Olympic Triathlon</option>
+            <option value="10K">10K</option>
+            <option value="hm">Half Marathon</option>
+          </select>
           <br>
          <label for="sevent">Sunday Event Registering for:</label>
-          <input type="text" name="sevent" id="sevent"/>
+          <select size="1" name="sevent" id="sevent">
+            <option>What event do you want to attend</option>
+            <option value="st">Sprint Triathlon</option>
+            <option value="tat">Try-a-Tri</option>
+            <option value="snd">Splash n Dash</option>
+          </select>
           <br>
         <label for="mycomments">Any Special Accommodations Needed?</label>
           <textarea name="mycomments" id="mycomments" rows="2" cols="20"></textarea>

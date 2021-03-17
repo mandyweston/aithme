@@ -14,9 +14,8 @@
             <?php include '../includes/header.inc.html.php'; ?>
             <?php include '../includes/nav.inc.html.php'; ?>
             <main>
-                <h1>Thank you!</h1>
-                <p><?php echo htmlspecialchars($myName, ENT_QUOTES, 'UTF-8'); ?> for contacting us. We will get back to you in 1-5 business days.
-                </p>
+                <h1>Thank you, <?php echo htmlspecialchars($myName, ENT_QUOTES, 'UTF-8'); ?> for contacting us.</h1>
+                <p id="thanks">We will get back to you in 1-5 business days.</p>
             </main>
             <?php include '../includes/footer.inc.html.php'; ?>
         </div>

@@ -39,6 +39,7 @@ h3 {
 p {
     text-align: left;
     padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: .75em;
 }
 
@@ -46,34 +47,16 @@ id {
     font-weight: bold;
 }
 
-#content1 {
+#content1, #content2, #content3, #content4, #content5, #content6, #content7 {
     padding-bottom: 100px;
+    text-align: center;
     
-}
-
-#content2 {
-    padding-bottom: 100px;
-}
-
-#content3 {
-    padding-bottom: 100px;
-}
-
-#content4 {
-    padding-bottom: 100px;
-}
-
-#content5 {
-    padding-bottom: 100px;
-}
-
-#content6 {
-    padding-bottom: 100px;
 }
 
 table, th, td {
   border: 1px solid black;
   margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -248,8 +231,16 @@ label {
   to {opacity: 1}
 }
 
+#thanks {
+    text-align: center;
+    font-size: 2em;
+}
+
+.weatherwidget-io {
+    background: red;
+}
+
 footer {
-    cursor: pointer;
     background-color: red;
     margin: 0;
     margin-top: 60px;
@@ -263,7 +254,6 @@ footer p {
 
 footer a {
     cursor: pointer;
-    float: center;
     display: block;
     color: black;
     text-align: center;
@@ -307,9 +297,32 @@ footer a:hover {
     grid-row: 6;
 }
 
+#content7 {
+     grid-column: 1 / span 12;
+    grid-row: 7;
+}
+
 /* TABLET STYLES */
 
 @media only screen and (min-width: 600px) {
+    
+    #content1, #content2, #content3, #content4, #content5, #content6 {
+        padding-bottom: 100px;
+        margin: 50px;
+    }
+    
+    .footernav {
+        text-align: center;
+    }
+    
+    .footernav li {
+        display: inline-block;
+    }
+    
+    .footernav li a {
+        margin: 6px;
+    }
+
     
     
     /* CSS GRID TABLET */
@@ -344,11 +357,20 @@ footer a:hover {
         grid-row: 5;
     }
     
+    #content7 {
+        grid-column: 1 / span 12;
+        grid-row: 6;
+    }
+    
 }
 
 /* DESKTOP STYLES */
 
 @media only screen and (min-width: 1025px) {
+    
+    #events {
+        margin-top: 30%;
+    }
     
      /* CSS GRID TABLET */
     
@@ -380,5 +402,10 @@ footer a:hover {
     #content6 {
         grid-column: 7 / span 6;
         grid-row: 4;
+    }
+    
+    #content7 {
+        grid-column: 1 / span 12;
+        grid-row: 5;
     }
 }

@@ -20,8 +20,10 @@
         <label for="myName">Name:</label>
           <input type="text" name="myName" id="myName">
         <br>
+        <label>Role:</label>
         <select size="1" name="role" id="role">
           <option>Select Your Role</option>
+          <option value="interested">Interested Party</option>
           <option value="athlete">Athlete</option>
           <option value="volunteer">Volunteer</option>
         </select>

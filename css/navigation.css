@@ -1,8 +1,5 @@
-
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     display: none;
 }
@@ -10,7 +7,11 @@ nav ul {
 /* space between lines */
 
 nav li {
-    padding: 10px 0;
+    background-color: red;
+    text-align: center;
+    margin-top: .5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
  
 /* remove underline in links. */
@@ -34,11 +35,11 @@ nav li a {
 /* clear float on line below */
 
 nav {
-    background-color: red;
     clear: both;
-    height: 35px;
     transition: max-height 1s ease-out;
     text-align: center;
+    margin-left: 55%;
+    margin-bottom: 18%;
 }
 
 /* menu icon for responsive hamburger menu */
@@ -46,8 +47,7 @@ nav {
 nav .menu-icon { /* location of hamburger icon */
     cursor: pointer;
     display: inline-block;
-    float: right;
-    padding: 28px 20px;
+    padding: 20px 90px;
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
@@ -121,6 +121,7 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     nav {
         margin: 0 0 10px 0;
         max-height: none;
+        background-color: red;
     }
 
     nav ul {
@@ -131,6 +132,8 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   
     nav li {
         display: inline;
+        margin: 0;
+        padding: 0;
     }
     
     nav li a {
